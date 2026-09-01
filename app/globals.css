@@ -279,3 +279,11 @@ body {
     animation: none;
   }
 }
+
+html, body {
+  background-image: url('/silk.jfif') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
