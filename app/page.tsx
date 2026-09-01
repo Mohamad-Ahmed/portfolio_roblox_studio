@@ -7,7 +7,7 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 
 export default function Page() {
   return (
-    <main className="relative min-h-screen bg-background text-foreground">
+    <main className="relative min-h-screen bg-transparent text-foreground">
       <SiteHeader />
       <ScrollReveal>
         <Hero />
