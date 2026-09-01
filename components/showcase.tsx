@@ -4,28 +4,28 @@ const PROJECTS = [
     tag: "Gameplay · Building · VFX",
     img: "/backrooms_studio_screenshot.jfif",
     span: "md:col-span-2",
-    desc: "ultra-realistic backrooms, made by me (100% real and in roblox, not copied from anyone.) ",
+    desc: "ultra-realistic backrooms, made by me (100% real and in Roblox, not copied from anyone.) ",
   },
   {
     title: "Projects in total.",
     tag: "",
     img: "/seventeen.jfif",
     span: "",
-    desc: "Pure hard work with a dedicated mind; that is how you do it my boy.",
+    desc: "Pure hard work with a dedicated mind; that is how you do it, my boy.",
   },
   {
     title: "",
     tag: "VFX · Building",
     img: "/blox_fruits.jfif",
     span: "",
-    desc: "Worked as a trial and junior developer at Blox Fruits for two months, in 2025.",
+    desc: "Made a solo Blox Fruits project. No toolbar. With scripts. Pure effort..",
   },
   {
     title: "The Empyrean Dynasty",
     tag: "VFX · Building",
     img: "/realistic_showcase_screenshot_studio_2.png",
     span: "md:col-span-2",
-    desc: "One of my most complex projects so far; designed with pure effort and a consistent mind. Crafted entirely out of my skillful hands btw lol.",
+    desc: "One of my most complex projects so far; designed with pure effort and a consistent mind. Crafted entirely out of my skilful hands btw lol.",
   },
 ]
 
