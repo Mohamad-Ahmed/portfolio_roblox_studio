@@ -156,36 +156,11 @@
 
 html {
   scroll-behavior: smooth;
-  background: #050505;
+  background: var(--background);
 }
 
 body {
-  position: relative;
-  isolation: isolate;
   min-height: 100vh;
-  background: #050505;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  pointer-events: none;
-  background:
-    linear-gradient(180deg, rgba(5, 5, 5, 0.7) 0%, rgba(5, 5, 5, 0.82) 58%, rgba(5, 5, 5, 0.96) 100%),
-    url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-FtHX60gAWlkzGAwQm5BkeipsVbACmM.png") center top / cover no-repeat;
-  filter: grayscale(1) contrast(0.85) blur(1px);
-  transform: scale(1.03);
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background: linear-gradient(180deg, rgba(5, 5, 5, 0.04), rgba(5, 5, 5, 0.2));
 }
 
 .scroll-reveal {
