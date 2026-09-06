@@ -4,7 +4,7 @@ const PROJECTS = [
     tag: "Gameplay · Building · VFX",
     img: "/backrooms_studio_screenshot.jfif",
     span: "md:col-span-2",
-    desc: "ultra-realistic backrooms, made by me (100% real and in Roblox, not copied from anyone.) ",
+    desc: "How VFX and Building work together to make something that doesn't feel real! ",
   },
   {
     title: "Projects in total.",
@@ -18,7 +18,7 @@ const PROJECTS = [
     tag: "VFX · Building",
     img: "/blox_fruits.jfif",
     span: "",
-    desc: "Made a solo Blox Fruits project. No toolbar. With scripts. Pure effort..",
+    desc: "Made a solo Blox Fruits project. No toolbar. With scripts. Pure effort.",
   },
   {
     title: "The Empyrean Dynasty",
