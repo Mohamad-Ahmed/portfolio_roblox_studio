@@ -25,7 +25,7 @@ export function ContactFooter() {
     <footer id="contact" className="relative overflow-hidden px-6 py-28">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-          Let&apos;s build something
+          Let&apos;s build something. Contact me for proofs and to access more of my work.
         </h2>
         <p className="mx-auto mt-4 max-w-md text-pretty leading-relaxed text-muted-foreground">
           Have a project in mind? Reach out on any platform below — I usually reply
