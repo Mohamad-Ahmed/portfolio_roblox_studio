@@ -39,7 +39,7 @@ const PROJECTS = [
     tag: "UI · UX Design",
     img: "/showcase-ui.png",
     span: "",
-    desc: "Soul Battlegrounds. Made with love and Pure Effort.",
+    desc: "Soul Battlegrounds. Inspired by the anime Bleah.",
   },
   {
     title: "",
