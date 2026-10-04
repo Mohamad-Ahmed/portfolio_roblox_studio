@@ -42,11 +42,11 @@ const PROJECTS = [
     desc: "Soul Battlegrounds. Made with love and Pure Effort.",
   },
   {
-    title: "Prop Design",
+    title: "",
     tag: "Environment · Building",
     img: "/showcase-model.png",
     span: "md:col-span-2",
-    desc: "Atmospheric game-ready props built to add identity, depth, and visual storytelling to Roblox worlds.",
+    desc: "",
   },
 ]
 
