@@ -32,7 +32,7 @@ const PROJECTS = [
     tag: "Gameplay · Scripting",
     img: "/showcase-obby.png",
     span: "",
-    desc: "Made admin ommands.",
+    desc: "Made admin commands. Working. In-line with Roblox AutoMod and TOS",
   },
   {
     title: "Battlegrounds Game",
