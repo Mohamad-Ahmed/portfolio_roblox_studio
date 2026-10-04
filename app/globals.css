@@ -158,8 +158,13 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html,
   body {
-    @apply bg-background text-foreground;
+    @apply min-h-full bg-black text-foreground;
+  }
+
+  body {
+    @apply bg-black;
   }
 }
 
