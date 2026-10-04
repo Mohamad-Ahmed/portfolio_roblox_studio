@@ -32,7 +32,7 @@ const PROJECTS = [
     tag: "Gameplay · Scripting",
     img: "/showcase-obby.png",
     span: "",
-    desc: "Responsive obstacle-course systems with satisfying movement, checkpoints, and polished player feedback.",
+    desc: "Made admin ommands.",
   },
   {
     title: "Battlegrounds Game",
