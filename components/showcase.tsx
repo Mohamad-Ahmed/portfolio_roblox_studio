@@ -15,7 +15,7 @@ const PROJECTS = [
   },
   {
     title: "",
-    tag: "VFX · Building",
+    tag: "Scripting · Building",
     img: "/blox_fruits.jfif",
     span: "",
     desc: "Made a solo Blox Fruits project, fully working. No toolbar. With scripts.",
@@ -36,7 +36,7 @@ const PROJECTS = [
   },
   {
     title: "Battlegrounds Game",
-    tag: "UI · UX Design",
+    tag: "All-in-one · Scripting",
     img: "/battlegrounds.png",
     span: "",
     desc: "Soul Battlegrounds. Inspired by the anime Bleach. 300+ visits in 2022",
@@ -44,7 +44,7 @@ const PROJECTS = [
   {
     title: "",
     tag: "Environment · Building",
-    img: "/showcase-model.png",
+    img: "/",
     span: "md:col-span-2",
     desc: "",
   },
