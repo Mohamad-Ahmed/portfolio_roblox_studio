@@ -24,7 +24,7 @@ export function ContactFooter() {
   }
 
   return (
-    <footer id="contact" className="relative overflow-hidden bg-black px-6 py-28">
+    <footer id="contact" className="relative overflow-hidden px-6 py-28">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
           Let&apos;s build something

@@ -52,7 +52,7 @@ const PROJECTS = [
 
 export function Showcase() {
   return (
-    <section id="work" className="mx-auto max-w-7xl bg-black px-6 py-28">
+    <section id="work" className="mx-auto max-w-7xl px-6 py-28">
       <div className="mb-12 flex items-end justify-between gap-6">
         <div>
           <p className="text-sm font-medium text-muted-foreground">Selected Work</p>
