@@ -63,7 +63,7 @@ const CODE_LINES: Array<Array<{ t: string; c: string }>> = [
 
 export function CodeSection() {
   return (
-    <section id="skills" className="mx-auto max-w-5xl bg-black px-6 py-28">
+    <section id="skills" className="mx-auto max-w-5xl px-6 py-28">
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
         <div>
           <p className="text-sm font-medium text-muted-foreground">Clean, production code</p>
