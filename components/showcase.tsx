@@ -30,7 +30,7 @@ const PROJECTS = [
   {
     title: "Admin Commands",
     tag: "Gameplay · Scripting",
-    img: "/showcase-obby.png",
+    img: "/code.png",
     span: "",
     desc: "Made admin commands. Working. In-line with Roblox AutoMod and TOS",
   },
@@ -39,14 +39,14 @@ const PROJECTS = [
     tag: "UI · UX Design",
     img: "/battlegrounds.png",
     span: "",
-    desc: "Soul Battlegrounds. Made with love and Pure Effort.",
+    desc: "Soul Battlegrounds. Inspired by the anime Bleach.",
   },
   {
-    title: "Prop Design",
+    title: "",
     tag: "Environment · Building",
     img: "/showcase-model.png",
     span: "md:col-span-2",
-    desc: "Atmospheric game-ready props built to add identity, depth, and visual storytelling to Roblox worlds.",
+    desc: "",
   },
 ]
 
