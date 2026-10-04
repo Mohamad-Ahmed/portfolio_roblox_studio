@@ -27,11 +27,32 @@ const PROJECTS = [
     span: "md:col-span-2",
     desc: "One of my most complex projects so far; designed with pure effort and a consistent mind. Crafted entirely out of my skillful hands btw lol.",
   },
+  {
+    title: "Obby Systems",
+    tag: "Gameplay · Scripting",
+    img: "/showcase-obby.png",
+    span: "",
+    desc: "Responsive obstacle-course systems with satisfying movement, checkpoints, and polished player feedback.",
+  },
+  {
+    title: "Inventory Interface",
+    tag: "UI · UX Design",
+    img: "/showcase-ui.png",
+    span: "",
+    desc: "A clean, readable inventory experience designed for fast interactions and a strong in-game visual hierarchy.",
+  },
+  {
+    title: "Prop Design",
+    tag: "Environment · Building",
+    img: "/showcase-model.png",
+    span: "md:col-span-2",
+    desc: "Atmospheric game-ready props built to add identity, depth, and visual storytelling to Roblox worlds.",
+  },
 ]
 
 export function Showcase() {
   return (
-    <section id="work" className="mx-auto max-w-5xl px-6 py-28">
+    <section id="work" className="mx-auto max-w-5xl bg-black px-6 py-28">
       <div className="mb-12 flex items-end justify-between gap-6">
         <div>
           <p className="text-sm font-medium text-muted-foreground">Selected Work</p>
