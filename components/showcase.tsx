@@ -52,7 +52,7 @@ const PROJECTS = [
 
 export function Showcase() {
   return (
-    <section id="work" className="mx-auto max-w-5xl bg-black px-6 py-28">
+    <section id="work" className="mx-auto max-w-7xl bg-black px-6 py-28">
       <div className="mb-12 flex items-end justify-between gap-6">
         <div>
           <p className="text-sm font-medium text-muted-foreground">Selected Work</p>
@@ -68,13 +68,13 @@ export function Showcase() {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {PROJECTS.map((p) => (
           <article
             key={p.title}
-            className={`glass glass-interactive group relative overflow-hidden rounded-3xl ${p.span}`}
+            className="glass glass-interactive group relative aspect-[16/9] overflow-hidden rounded-3xl"
           >
-            <div className="aspect-[16/10] w-full overflow-hidden">
+            <div className="h-full w-full overflow-hidden">
               <img
                 src={p.img || "/placeholder.svg"}
                 alt={`${p.title} — ${p.tag}`}
