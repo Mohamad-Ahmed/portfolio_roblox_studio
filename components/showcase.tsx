@@ -4,34 +4,55 @@ const PROJECTS = [
     tag: "Gameplay · Building · VFX",
     img: "/backrooms_studio_screenshot.jfif",
     span: "md:col-span-2",
-    desc: "How VFX and Building work together to make something that doesn't feel real! ",
+    desc: "ultra-realistic backrooms, made by me (100% real and in roblox, not copied from anyone.) ",
   },
   {
     title: "Projects in total.",
     tag: "",
     img: "/seventeen.jfif",
     span: "",
-    desc: "Pure hard work with a dedicated mind; that is how you do it, my boy.",
+    desc: "Pure hard work with a dedicated mind; that is how you do it my boy.",
   },
   {
     title: "",
     tag: "VFX · Building",
     img: "/blox_fruits.jfif",
     span: "",
-    desc: "Made a solo Blox Fruits project. No toolbar. With scripts. Pure effort.",
+    desc: "Worked as a trial and junior developer at Blox Fruits for two months, in 2025.",
   },
   {
     title: "The Empyrean Dynasty",
     tag: "VFX · Building",
     img: "/realistic_showcase_screenshot_studio_2.png",
     span: "md:col-span-2",
-    desc: "One of my most complex projects so far; designed with pure effort and a consistent mind. Crafted entirely out of my skilful hands btw lol.",
+    desc: "One of my most complex projects so far; designed with pure effort and a consistent mind. Crafted entirely out of my skillful hands btw lol.",
+  },
+  {
+    title: "Obby Systems",
+    tag: "Gameplay · Scripting",
+    img: "/showcase-obby.png",
+    span: "",
+    desc: "Responsive obstacle-course systems with satisfying movement, checkpoints, and polished player feedback.",
+  },
+  {
+    title: "Inventory Interface",
+    tag: "UI · UX Design",
+    img: "/showcase-ui.png",
+    span: "",
+    desc: "A clean, readable inventory experience designed for fast interactions and a strong in-game visual hierarchy.",
+  },
+  {
+    title: "Prop Design",
+    tag: "Environment · Building",
+    img: "/showcase-model.png",
+    span: "md:col-span-2",
+    desc: "Atmospheric game-ready props built to add identity, depth, and visual storytelling to Roblox worlds.",
   },
 ]
 
 export function Showcase() {
   return (
-    <section id="work" className="mx-auto max-w-5xl px-6 py-28">
+    <section id="work" className="mx-auto max-w-7xl bg-black px-6 py-28">
       <div className="mb-12 flex items-end justify-between gap-6">
         <div>
           <p className="text-sm font-medium text-muted-foreground">Selected Work</p>
@@ -47,13 +68,13 @@ export function Showcase() {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8">
         {PROJECTS.map((p) => (
           <article
             key={p.title}
-            className={`glass glass-interactive group relative overflow-hidden rounded-3xl ${p.span}`}
+            className="glass glass-interactive group relative aspect-[21/10] overflow-hidden rounded-3xl"
           >
-            <div className="aspect-[16/10] w-full overflow-hidden">
+            <div className="h-full w-full overflow-hidden">
               <img
                 src={p.img || "/placeholder.svg"}
                 alt={`${p.title} — ${p.tag}`}
