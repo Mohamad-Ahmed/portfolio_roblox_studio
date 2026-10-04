@@ -18,7 +18,7 @@ const PROJECTS = [
     tag: "VFX · Building",
     img: "/blox_fruits.jfif",
     span: "",
-    desc: "Worked as a trial and junior developer at Blox Fruits for two months, in 2025.",
+    desc: "Made a solo Blox Fruits project, fully working. No toolbar. With Sripts..",
   },
   {
     title: "The Empyrean Dynasty",
@@ -28,18 +28,18 @@ const PROJECTS = [
     desc: "One of my most complex projects so far; designed with pure effort and a consistent mind. Crafted entirely out of my skillful hands btw lol.",
   },
   {
-    title: "Obby Systems",
+    title: "Admin Commands",
     tag: "Gameplay · Scripting",
     img: "/showcase-obby.png",
     span: "",
-    desc: "Responsive obstacle-course systems with satisfying movement, checkpoints, and polished player feedback.",
+    desc: "Made admin commands. Working. In-line with Roblox AutoMod and TOS",
   },
   {
-    title: "Inventory Interface",
+    title: "Battlegrounds Game",
     tag: "UI · UX Design",
     img: "/showcase-ui.png",
     span: "",
-    desc: "A clean, readable inventory experience designed for fast interactions and a strong in-game visual hierarchy.",
+    desc: "Soul Battlegrounds. Made with love and Pure Effort.",
   },
   {
     title: "Prop Design",

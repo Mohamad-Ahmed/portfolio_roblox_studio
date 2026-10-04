@@ -6,8 +6,8 @@ const LINKS = [
   { label: "Discord", value: "ahmed.thedev", copy: true, href: undefined },
   { label: "Twitter / X", value: "@PythonTheDev", copy: false, href: "https://x.com/PythonTheDev" },
   { label: "Roblox Talent Hub", value: "View profile", copy: false, href: "https://create.roblox.com/talent/creators/7054807862" },
-  { label: "Instagram", value: "@PythonTheDev", copy: false, href: "https://www.instagram.com/PythonTheDev" },
-  { label: "Gmail", value: "pythontherobloxdev@gmail.com", copy: false, href: "mailto:pythontherobloxdev@gmail.com" },
+  { label: "Instagram", value: "@m.ahmed._.z", copy: false, href: "https://www.instagram.com/m.ahmed._.z" },
+  { label: "Gmail", value: "ahmedzeeshan.dev@gmail.com", copy: false, href: "mailto:pythontherobloxdev@gmail.com" },
 ]
 
 export function ContactFooter() {
