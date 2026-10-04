@@ -18,7 +18,7 @@ const PROJECTS = [
     tag: "VFX · Building",
     img: "/blox_fruits.jfif",
     span: "",
-    desc: "Made a solo Blox Fruits projets, fully working. No toolbar. With Sripts..",
+    desc: "Made a solo Blox Fruits project, fully working. No toolbar. With Sripts..",
   },
   {
     title: "The Empyrean Dynasty",
