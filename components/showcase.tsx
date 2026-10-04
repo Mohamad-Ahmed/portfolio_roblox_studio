@@ -18,7 +18,7 @@ const PROJECTS = [
     tag: "VFX · Building",
     img: "/blox_fruits.jfif",
     span: "",
-    desc: "Worked as a trial and junior developer at Blox Fruits for two months, in 2025.",
+    desc: "Made a solo Blox Fruits projets, fully working. No toolbar. With Sripts..",
   },
   {
     title: "The Empyrean Dynasty",
