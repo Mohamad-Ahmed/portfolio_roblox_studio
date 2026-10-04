@@ -68,11 +68,11 @@ export function Showcase() {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 gap-8">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {PROJECTS.map((p) => (
           <article
             key={p.title}
-            className="glass glass-interactive group relative aspect-[21/10] overflow-hidden rounded-3xl"
+            className="glass glass-interactive group relative aspect-[16/10] overflow-hidden rounded-3xl"
           >
             <div className="h-full w-full overflow-hidden">
               <img
