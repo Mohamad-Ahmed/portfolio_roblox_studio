@@ -30,7 +30,7 @@ const PROJECTS = [
   {
     title: "Admin Commands",
     tag: "Gameplay · Scripting",
-    img: "/showcase-obby.png",
+    img: "/code.png",
     span: "",
     desc: "Made admin commands. Working. In-line with Roblox AutoMod and TOS",
   },
