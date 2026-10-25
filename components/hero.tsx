@@ -26,7 +26,7 @@ export function Hero() {
         </h1>
 
         <p className="mt-8 text-pretty text-base font-medium text-muted-foreground sm:text-lg">
-          Scripter, Builder, and UI/UX Designer
+          Scripter, Builder, UI/UX Designer and VFX Artist
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
