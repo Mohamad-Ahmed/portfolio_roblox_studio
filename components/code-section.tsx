@@ -6,9 +6,10 @@ const SPECIALITIES = [
   "UI / UX Design",
   "World Building",
   "Optimization",
+  "VFX",
 ]
 
-const EXCLUDED = ["3D Art", "Modeling", "VFX"]
+const EXCLUDED = ["3D Art", "Modeling"]
 
 // A small hand-rolled Luau highlighter for display purposes.
 const CODE_LINES: Array<Array<{ t: string; c: string }>> = [
